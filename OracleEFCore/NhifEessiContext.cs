@@ -22,7 +22,8 @@ namespace OracleEFCore
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseOracle("User Id=nhifeessi;Password=nhifeessi;Data Source=192.168.5.109:1521/DB11G;");
+                optionsBuilder.UseOracle("User Id=****;Password=****;Data Source=****:1521/DB11G;", 
+                    b => b.UseOracleSQLCompatibility("11"));
             }
         }
 
