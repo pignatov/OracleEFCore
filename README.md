@@ -1,5 +1,6 @@
 # OracleEFCore
 Oracle EF Core Demo with Oracle 11.2
+.NET Core 2.2 Command line
 This demo does not work, it is only for a demonstration of a problem when adding entities!
 
 ## DB Creation
